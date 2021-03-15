@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DirectoryOfPersons.Application\DirectoryOfPersons.Application.csproj" />
+    <ProjectReference Include="..\DirectoryOfPersons.Domain\DirectoryOfPersons.Domain.csproj" />
+    <ProjectReference Include="..\DirectoryOfPersons.Persistance\DirectoryOfPersons.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
